@@ -20,6 +20,33 @@ install.packages("tidyverse")
 library(tidyverse)
 
 # Data
-data = read_delim("computacion-cientifica-tp2/data.txt", delim=";")
-data
+raw_data = read_delim("computacion-cientifica-tp2/data.txt", delim=";")
+raw_data
+
+# Pasamos al objeto sobre el que vamos a trabajar
+ds = raw_data
+
+# Encodeamos la variable categorica
+ds$famhist = ifelse(ds$famhist == "Present", 1,0)
+names(ds) = c('INDEX', 'BLOOD_PRES', 'TOBAC', 'CHOLESTEROL', 'ADIPOSITY', 'FAMHIST', 'TYPE_A', 'OBESITY', 'ALCOHOL', 'AGE', 'TARGET')
+ds
+
+
+### Estadistica descriptiva
+
+## Graficos
+
+# Barplot
+ggplot(data = ds, aes(x = TARGET), title='Variable target') + geom_bar()  
+
+# Scatter
+ggplot(ds, aes(AGE, TOBAC)) + geom_point()
+
+# Boxplot
+ggplot(ds, aes(AGE)) + geom_boxplot()
+
+# 
+ggplot(ds, aes(AGE)) + geom_histogram(bins=15)
+
+
 
