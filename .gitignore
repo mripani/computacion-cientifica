@@ -15,4 +15,4 @@ staging/
 # Custom
 .DS_Store
 *renv*
-
+*graficos*
