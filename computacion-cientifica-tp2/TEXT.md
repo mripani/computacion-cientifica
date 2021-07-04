@@ -24,3 +24,15 @@ install.packages("modelr")
 
 
 - [Classification Metrics](https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226)
+
+
+- [ROCR](https://hopstat.wordpress.com/2014/12/19/a-small-introduction-to-the-rocr-package/)
+
+
+Averiguar si el thresholod se calcula sobre los datos de entrenamiento o los datos de testeo 
+
+
+
+
+
+
