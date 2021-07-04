@@ -17,3 +17,10 @@ forcats, for factors.
 Alternatively, install just modelr:
 install.packages("modelr")
 
+
+- [Correlation Plot](https://www.rdocumentation.org/packages/GGally/versions/1.5.0/topics/ggcorr)
+
+- [Family GLM](https://www.researchgate.net/post/How-to-determine-which-family-function-to-use-when-fitting-generalized-linear-model-glm-in-R)
+
+
+- [Classification Metrics](https://towardsdatascience.com/the-5-classification-evaluation-metrics-you-must-know-aa97784ff226)
