@@ -16,3 +16,5 @@ staging/
 .DS_Store
 *renv*
 *graficos*
+*.Rproj
+*data*
