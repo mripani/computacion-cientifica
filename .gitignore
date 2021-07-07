@@ -1,2 +1,25 @@
+<<<<<<< HEAD
 .Rhistory
 .DS_Store
+=======
+# System
+library/
+local/
+lock/
+python/
+staging/
+
+# R
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.Rprofile
+
+# Custom
+.DS_Store
+*renv*
+*graficos*
+*.Rproj
+*data*
+>>>>>>> tp2
